@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeopark Hoşgeldiniz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="welcome-screen">
+        <div class="welcome-message">
+            <h1>Türkiye'nin ilk ve tek jeoparkına hoş geldiniz!</h1>
+            <div class="button-container">
+                <button id="explore-button">Jeoparkı Keşfet</button>
+                <button id="routes-button">Rotalar</button>
+                <button id="qr-button">QR Kod Tara</button>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <!-- Ana içeriğiniz burada yer alacak -->
+    </div>
+
+    <!-- QR Kod Tarayıcı Ekranı -->
+    <div id="qr-scanner" class="qr-scanner">
+        <div id="qr-reader"></div>
+        <button id="close-qr-scanner">Kapat</button>
+    </div>
+
+    <script src="https://unpkg.com/html5-qrcode/minified/html5-qrcode.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
